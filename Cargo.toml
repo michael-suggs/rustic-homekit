@@ -1,0 +1,16 @@
+[package]
+name = "rustic-homekit"
+version = "0.1.0"
+authors = ["Michael Suggs <suggs.michael.jeffrey@gmail.com>"]
+edition = "2018"
+description = """
+A tui app for managing Apple's HomeKit.
+"""
+keywords = ["apple", "homekit", "tui"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hap = "0.0.10"
+tui = "0.14"
+termion = "1.5"
